@@ -42,8 +42,10 @@ on the command line from the project root run `poetry build`
 
 ### Consume in your project
 If you can't find this package as `csp-tool` on pypi.org (and therefore pip) you can still install it as a module in your consuming project by using
-```pip install /path/to/csp_tool-0.1.0-py3-none-any.whl``` or list `./../relative/path/to/csp_tool-0.1.0-py3-none-any.whl` in your requirements.txt file
+`pip install /path/to/csp_tool-0.1.0-py3-none-any.whl` or list `./../relative/path/to/csp_tool-0.1.0-py3-none-any.whl` in your requirements.txt file
 
 If you're using Poetry in your own project you can add this to your pyproject.toml
-```[tool.poetry.dependencies]
-my-package = { file = "path/to/csp_tool-0.1.0-py3-none-any.whl" }```
+```
+[tool.poetry.dependencies]
+my-package = { file = "path/to/csp_tool-0.1.0-py3-none-any.whl" }
+```
